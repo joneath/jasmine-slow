@@ -1,5 +1,5 @@
 # jasmine-slow.js
-jasmine-slow.js is a utility library to help track down long running jasmine specs. The library works by taking a snapshot of the current time a test starts and when it ends. If the interval is higher than the threshold, you will see a message in the console describing the test and how long it took. Jasmine's fast but it can always get faster!
+jasmine-slow.js is a utility library to help track down long running jasmine specs. The library works by taking a snapshot of the current time a test starts and when it ends. If the interval is higher than the threshold, you will see a message in the console describing the test and how long it took.
 
 ##Usage
 To begin using jasmine-slow, you need to copy the source file to your jasmine helpers folder.
