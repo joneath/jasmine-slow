@@ -12,6 +12,10 @@ By default jasmine-slow will notify you of any spec that takes longer than 75ms,
 
     jasmine.slow.enable(150); // sets the threshold to 150ms
     
+You can also programmatically disable logging using the disable method
+
+    jasmine.slow.disable(); // No more slow logging
+    
 It's as simple as that. Now get busy speeding up your test suite!
 
 ##Output
